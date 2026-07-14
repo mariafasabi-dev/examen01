@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Centrar el contenedor principal */
+.wrapper {
+    width: 1024px;
+    margin: 0 auto;
+    overflow: hidden; /* Limpia las flotaciones internas */
+}
+
+/* Columna Izquierda */
+.columnalzq {
+    width: 204px;
+    float: left;
+    box-sizing: border-box;
+}
+
+/* Configuración del Logotipo */
+.columnalzq .logo {
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Configuración del Menú */
+.columnalzq .menu {
+    border-top: 1px solid black;
+    margin-top: 30px;
+    padding-top: 10px;
+    text-align: center;
+    list-style: none;
+    padding-left: 0;
+}
+
+.columnalzq .menu a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+.columnalzq .menu a:hover {
+    color: gray;
+}
+
+/* Columna Derecha */
+.columnaDch {
+    width: 779px;
+    float: left;
+    height: 500px;
+    color: SlateGray;
+    text-align: justify;
+    border-left: 1px solid gray;
+    padding: 20px;
+    box-sizing: border-box; /* Evita que el padding sume al ancho total */
+}
